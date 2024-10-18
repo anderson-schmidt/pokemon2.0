@@ -15,9 +15,9 @@ export default function Banner() {
         <nav>
           <ul>
             <li><Link to="/" activeClassName="active">Home</Link></li>
-            <li><Link to="/animes/">Animes</Link></li>
-            <li><Link to="/spin-offs/">Spin-Offs</Link></li>
-            <li><Link to="/filmes/">Filmes</Link></li>
+            <li><Link to="./animes/">Animes</Link></li>
+            <li><Link to="./spin-offs/">Spin-Offs</Link></li>
+            <li><Link to="./filmes/">Filmes</Link></li>
           </ul>
         </nav>
       </div>
