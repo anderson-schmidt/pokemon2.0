@@ -2,6 +2,7 @@ import * as React from "react";
 import pikachuGif from "../images/gifs/pikachu.gif";
 import logoPika from "../images/logo/logoPika.png";
 
+
 export default function AboutSection() {
     return(
   <section className="default light dl">

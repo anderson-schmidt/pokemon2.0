@@ -20,12 +20,15 @@
     --c-border-red: rgba(255, 0, 0, 0);
 }
 
-header {
+.header {
     height: 100px;
     background-color: var(--c-red);
     position: fixed;
     width: 100vw;
-    max-width: 87.45vw;
+}
+
+.header {
+    max-width: auto;
     height: 100px;
     margin: auto;
     display: flex;
@@ -34,6 +37,13 @@ header {
 
 .logo {
     width: 140px;
+    size:10px
+;
+}
+
+.logoimg {
+    width: 140px;
+    height: 60px;
 }
 
 footer {
@@ -42,4 +52,47 @@ footer {
     color: white;
     display: flex;
     justify-content: end;
+}
+
+body {
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu nav ul,
+.menu nav ul li {
+    list-style: none;
+}
+
+.menu nav ul {
+    display: flex;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: var(--c-white);
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    border-bottom: 5px solid var(--c-border-red);
+}
+
+.menu nav ul li a:hover,
+.menu nav ul li .active {
+    border-bottom: 5px solid var(--c-white);
+    color: rgb(0, 0, 0);
+}
+
+.section .section-left .button {
+    padding: 13px 46px;
 }

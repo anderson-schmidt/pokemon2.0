@@ -1,17 +1,18 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import logo from "../images/logo/logo.png";
+import * as headerStyles from "./layout.module.css";
 
 export default function Banner() {
   return(
     <header>
-    <div className="header">
-      <div className="logo">
+    <div className={headerStyles.header}>
+      <div classname={headerStyles.logo}>
         <Link to="/">
-          <img src={logo} alt="Logo Pokémon Club" />
+          <img src={logo} alt="Logo Pokémon Club" className={headerStyles.logoimg} />
         </Link>
       </div>
-      <div className="menu">
+      <div className={headerStyles.menu}>
         <nav>
           <ul>
             <li><Link to="/" activeClassName="active">Home</Link></li>

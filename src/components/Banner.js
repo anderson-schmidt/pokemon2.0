@@ -1,6 +1,7 @@
 import * as React from "react";
 import pikachuGif from "../images/gifs/pikachu-happy.gif";
 
+
 export default function Banner()  {
   return(
   <section className="banner">
